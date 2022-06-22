@@ -1,6 +1,7 @@
 {
   "name": "unique-bloodline-bullies",
   "version": "0.0.0",
+  "homepage": "https://giovannidw.github.io/unique-bloodline-bullies",
   "scripts": {
     "dev": "vite",
     "build": "vite --base=/unique-bloodline-bullies/ build",
