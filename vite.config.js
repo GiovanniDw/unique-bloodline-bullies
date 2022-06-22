@@ -14,7 +14,6 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
-    base: '/unique-bloodline-bullies/',
   },
   server: {
     host: true,
