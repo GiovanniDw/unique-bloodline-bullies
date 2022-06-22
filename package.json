@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/unique-bloodline-bullies/",
-    "deploy": "/deploy.sh",
+    "build": "vite --base=/unique-bloodline-bullies/ build",
+    "deploy": "sh ./deploy.sh",
     "preview": "vite preview --port 4173",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
@@ -20,6 +20,7 @@
     "@vue/eslint-config-prettier": "^7.0.0",
     "eslint": "^8.5.0",
     "eslint-plugin-vue": "^8.2.0",
+    "gh-pages": "^4.0.0",
     "prettier": "^2.5.1",
     "sass": "^1.52.3",
     "vite": "^2.9.9"
