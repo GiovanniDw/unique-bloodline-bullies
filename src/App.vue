@@ -20,7 +20,7 @@ import HelloWorld from '@/components/HelloWorld.vue';
         <RouterLink class="nav-item" to="/about">About</RouterLink>
       </nav>
       <div class="social">
-        <a href=""></a>
+        <a href="">Facebook</a>
         <a href="">Instagram</a>
       </div>
     </div>
