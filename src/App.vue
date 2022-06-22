@@ -21,7 +21,7 @@ import HelloWorld from '@/components/HelloWorld.vue';
       </nav>
       <div class="social">
         <a href="">Facebook</a>
-        <a href="">Insta</a>
+        <a href="">Instagram</a>
       </div>
     </div>
   </header>
