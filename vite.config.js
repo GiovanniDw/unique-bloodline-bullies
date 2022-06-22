@@ -15,5 +15,5 @@ export default defineConfig({
   server: {
     host: true,
   },
-  base: '/unique-bloodline-bullies/'
+  base: '/unique-bloodline-bullies/',
 });
