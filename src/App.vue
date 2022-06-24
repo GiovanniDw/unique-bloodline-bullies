@@ -7,21 +7,19 @@ import HelloWorld from '@/components/HelloWorld.vue';
   <header>
     <div class="wrapper">
       <RouterLink to="/">
-        <img
-          alt="Vue logo"
-          class="logo"
-          src="@/assets/logo.svg"
-          width="44"
-          height="44"
-        />
+        <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="44" height="44" />
       </RouterLink>
       <nav>
         <RouterLink class="nav-item" to="/">Home</RouterLink>
         <RouterLink class="nav-item" to="/about">About</RouterLink>
       </nav>
       <div class="social">
-        <a href="">Facebook</a>
-        <a href="">Instagram</a>
+        <a href="">
+          <font-awesome-icon class="facebook" icon="fa-brands fa-facebook" />
+        </a>
+        <a href="">
+          <font-awesome-icon class="instagram" icon="fa-brands fa-instagram" />
+        </a>
       </div>
     </div>
   </header>
@@ -39,10 +37,12 @@ import HelloWorld from '@/components/HelloWorld.vue';
   /* background-color: var(--color-background); */
   font-weight: normal;
 }
+
 .white-space {
   top: 0;
   height: 500px;
 }
+
 header {
   line-height: 1.5;
   min-height: 4rem;
@@ -73,6 +73,7 @@ header .wrapper {
   align-items: center;
   padding: 1rem 2rem;
 }
+
 .logo {
   display: inline-block;
 }
@@ -82,6 +83,27 @@ a,
   text-decoration: none;
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
+}
+
+.social {
+  /* font-display: flex; */
+
+  a {
+    font-size: 1.3em;
+    height: 25px;
+    width: 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+  }
+
+  a svg {
+    color: #111111;
+    transition-duration: 2s;
+    width: 25px;
+    height: 25px; 
+  }
 }
 
 @media (hover: hover) {
@@ -119,6 +141,7 @@ nav a {
 nav a:first-of-type {
   border: 0;
 }
+
 //desktop
 @media (min-width: 1024px) {
   body {
